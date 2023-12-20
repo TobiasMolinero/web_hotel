@@ -1,0 +1,18 @@
+:root{
+    font-size: 10px;
+    --color-primary: #131D40;
+    --color-secondary: #E4C07D;
+    --color-white: #EDECE1;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: var(--color-secondary);
+}

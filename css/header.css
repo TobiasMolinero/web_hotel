@@ -1,0 +1,90 @@
+.header{
+    /* background-color: var(--color-primary); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 60px 0 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: 0.45s;
+}
+
+.header-sticked{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px 0 60px;
+    box-shadow: 0 0 5px 1px #000;
+    transition: 0.45s;
+}
+
+header a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo .logo_normal{
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    top: 0;
+    /* filter: drop-shadow(0 0 2px #000); */
+    transition: 0.45s;
+}
+
+header .logo .logo_sticked{
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 5px;
+    border-radius: 100%;
+    box-shadow: 0 1px 5px 0px #000;
+    transition: 0.45s;
+}
+
+header .navegador{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+header .navegador{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.navegador ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navegador a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.navegador a:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+.navegador .info-contacto{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.navegador .info-contacto .separador{
+    margin: 0 5px;
+    color: #000;
+}
