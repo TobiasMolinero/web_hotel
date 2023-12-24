@@ -2,7 +2,7 @@
     background-image: url('../assets/foto_banner.jpg');
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 641px;
     display: grid;
     place-items: center;
 }
@@ -35,3 +35,103 @@
     text-align: center;
     text-shadow: 0 0 10px #000;
 }
+
+.banner-reservas{
+    background: red;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    padding: 20px 20px;
+    width: 100%;
+    height: 140px;
+    background: #00000091;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    z-index: 1;
+}
+
+.reservas-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.reservas-texto h4{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+}
+
+.reservas-texto p {
+    font-size: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #868686;
+}
+
+
+.reservas-form form{
+    display: flex;
+    align-items: end;
+    gap: 20px;
+    color: #fff;
+}
+
+.reservas-form form .group-input{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.reservas-form form .group-input label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.reservas-form form .group-input input, 
+.reservas-form form .group-input select
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    padding: 10px 5px 10px 15px;
+    outline: none;
+    border: none;
+    background: #868686;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reservas-form form .group-input input[type= 'date']{
+    width: 150px;
+}
+
+.reservas-form form .group-input select{
+    width: 70px;
+}
+
+.reservas-form form button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 13px 0;
+    width: 220px;
+    background: rgb(255, 75, 10);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: padding 0.4s;
+}
+
+.reservas-form form button:hover{
+    padding: 13px 5px 13px 80px;
+}
+
+
+

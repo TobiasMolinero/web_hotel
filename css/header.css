@@ -23,6 +23,7 @@
     padding: 30px 60px 0 60px;
     box-shadow: 0 0 5px 1px #000;
     transition: 0.45s;
+    z-index: 100;
 }
 
 header a{
@@ -49,6 +50,7 @@ header .logo .logo_sticked{
     border-radius: 100%;
     box-shadow: 0 1px 5px 0px #000;
     transition: 0.45s;
+    
 }
 
 header .navegador{

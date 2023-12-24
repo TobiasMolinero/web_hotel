@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         header.classList.add("header-sticked");
         logo.classList.remove("logo_normal");
         logo.classList.add("logo_sticked");
-        logo.src = './assets/logo_hotel_blanco.png'
+        logo.src = './assets/logo_hotel.png'
       } else {
         header.classList.remove("header-sticked");
         header.classList.add("header");
